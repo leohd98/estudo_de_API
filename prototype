@@ -1,0 +1,16 @@
+1 disponibiliza um menu para que o usuário escolha seu método de pesquisa
+
+se ele quer por nome
+teria que criar um script que acessa o método de pesquisa por letra
+https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+e fazer com que o programa armazenasse todos os nomes do endpoint.
+e dpois mudasse a pesquisa usando o mesmo link mas substituindo pela proxima letra, de a até z
+
+por primeira letra:
+https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+https://www.thecocktaildb.com/api/json/v1/1/search.php?f={LETRA}
+chave "strDrink"
+
+ou por categoria:
+https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list
+chave "strCategory"
